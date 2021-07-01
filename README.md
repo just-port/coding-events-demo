@@ -13,14 +13,14 @@ implemented in most of the app.
 events the user is interested in or has created. Authentication 
 is also in the works. My ideas for the person class are:
 
-// public class Person
-// ID(unique generated int)
-// first name(String)
-// last name(String)
-// password(String)
-// email(String)
-// (language(String), birthday(Date), gender(enum??),
-// bio(Optional String))
-// interests - probably a List<Tags>
-// events they might be interested in or are attending List<Events>
-// events that they've created List<Events>
+public class Person
+ID(unique generated int)
+first name(String)
+last name(String)
+password(String)
+email(String)
+(language(String), birthday(Date), gender(enum??),
+bio(Optional String))
+interests - probably List<Tags>
+events they might be interested in or are attending List<Event>
+events that they've created List<Event>
